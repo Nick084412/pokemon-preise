@@ -4,19 +4,44 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pokémon-Kartenpreise</title>
-<meta name="description" content="Preise von Pokémon-Karten auf Cardmarket und eBay vergleichen, Preisverlauf und Ausblick.">
+<meta name="description" content="Preise von Pokémon-Karten auf Cardmarket und eBay vergleichen, Preisverlauf, Ausblick und eigenes Portfolio.">
 <link rel="stylesheet" href="pokemon.css">
 <script>try{var t=localStorage.getItem("pk-thema");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
 <header class="kopf">
   <div class="breit kopf-innen">
-    <div>
-      <p class="kicker">Preisvergleich · Cardmarket &amp; eBay</p>
-      <h1>Pokémon-Kartenpreise</h1>
-    </div>
+    <a class="marke-titel" href="#markt">
+      <span class="kicker">Preisvergleich · Cardmarket &amp; eBay</span>
+      <span class="h1">Pokémon-Kartenpreise</span>
+    </a>
     <button class="thema" id="thema" type="button" aria-label="Hell/Dunkel umschalten">◐</button>
   </div>
+  <nav class="breit nav" aria-label="Bereiche">
+    <details class="menue" id="menue-markt">
+      <summary data-bereich="markt">Markt</summary>
+      <div class="menue-liste">
+        <a href="#markt-begehrt">Begehrteste Karten</a>
+        <a href="#markt-bewegung">Gewinner &amp; Verlierer</a>
+      </div>
+    </details>
+    <details class="menue" id="menue-beobachtet">
+      <summary data-bereich="beobachtet">Beobachtet</summary>
+      <div class="menue-liste">
+        <a href="#beobachtet-deals">Günstige Angebote</a>
+        <a href="#beobachtet-liste">Beobachtete Karten</a>
+        <a href="#beobachtet-push">Benachrichtigungen</a>
+      </div>
+    </details>
+    <details class="menue" id="menue-portfolio">
+      <summary data-bereich="portfolio">Portfolio</summary>
+      <div class="menue-liste">
+        <a href="#portfolio-uebersicht">Übersicht &amp; Wertentwicklung</a>
+        <a href="#portfolio-karten">Meine Karten</a>
+        <a href="#portfolio-sichern">Sichern &amp; übertragen</a>
+      </div>
+    </details>
+  </nav>
   <form class="breit suche" id="suche" role="search">
     <input id="eingabe" type="search" placeholder="Karte suchen, z. B. Glurak, Nachtara, Pikachu …" autocomplete="off" aria-label="Kartenname">
     <button type="submit">Suchen</button>
@@ -30,21 +55,89 @@
     <div class="raster" id="treffer"></div>
   </section>
 
-  <section id="bereich-liste">
-    <div class="abschnitt-kopf">
-      <h2>Beobachtete Karten</h2>
-      <p class="stand" id="stand"></p>
-    </div>
-    <div class="deals" id="deals"></div>
-    <div class="raster" id="liste"><p class="hinweis">Lade …</p></div>
-  </section>
+  <!-- ============ Markt ============ -->
+  <div class="seite" data-seite="markt">
+    <details class="block" id="markt-begehrt" open>
+      <summary><h2>Begehrteste Karten</h2><span class="stand" id="markt-stand"></span></summary>
+      <p class="hinweis klein">Die 10 wertvollsten Karten aus Sets der letzten 12 Monate, die zuletzt auf Cardmarket verkauft wurden. Cardmarket gibt seine Klickzahlen nicht heraus, deshalb ist das der beste frei verfügbare Ersatz.</p>
+      <div class="raster" id="begehrt"><p class="hinweis">Lade …</p></div>
+    </details>
 
-  <section class="info">
-    <h2>Benachrichtigungen</h2>
-    <p>Bei einem günstigen Angebot (unter deinem Wunschpreis oder <span id="rabatt">20</span> % unter dem Cardmarket-Trend) kommt eine Push-Nachricht aufs Handy: App <a href="https://ntfy.sh" rel="noopener">ntfy</a> installieren, „+“ tippen und den Kanal <code id="kanal">pokemon-preise-k7m2xq9d</code> abonnieren.</p>
-    <p>Karten und Wunschpreise stehen in <a href="https://github.com/nick084412/pokemon-preise/edit/main/abruf/beobachten.json" rel="noopener">abruf/beobachten.json</a>. Bei jeder Karte auf dieser Seite gibt es einen fertigen Eintrag zum Kopieren.</p>
-    <p class="klein">Daten: Cardmarket- und TCGplayer-Preise über die freie <a href="https://tcgdex.dev" rel="noopener">TCGdex-API</a> (täglich aktualisiert), eBay-Angebote über die eBay-Browse-API. Der Ausblick ist eine statistische Fortschreibung des bisherigen Verlaufs, keine Anlageberatung.</p>
-  </section>
+    <details class="block" id="markt-bewegung" open>
+      <summary><h2>Gewinner &amp; Verlierer</h2></summary>
+      <div class="steuerung">
+        <label>Zeitraum
+          <select id="zeitraum">
+            <option value="7">7 Tage</option>
+            <option value="30" selected>30 Tage</option>
+          </select>
+        </label>
+        <span class="hinweis klein" id="bewegung-info"></span>
+      </div>
+      <div class="zwei">
+        <div><h3 class="plus">▲ Am stärksten gestiegen</h3><ol class="rangliste" id="gewinner"></ol></div>
+        <div><h3 class="minus">▼ Am stärksten gefallen</h3><ol class="rangliste" id="verlierer"></ol></div>
+      </div>
+    </details>
+  </div>
+
+  <!-- ============ Beobachtet ============ -->
+  <div class="seite" data-seite="beobachtet" hidden>
+    <details class="block" id="beobachtet-deals" open>
+      <summary><h2>Günstige Angebote</h2><span class="stand" id="stand"></span></summary>
+      <div class="deals" id="deals"></div>
+    </details>
+    <details class="block" id="beobachtet-liste" open>
+      <summary><h2>Beobachtete Karten</h2></summary>
+      <p class="hinweis klein">Für diese Karten werden alle 2 Stunden auch die eBay.de-Angebote abgerufen.</p>
+      <div class="raster" id="liste"><p class="hinweis">Lade …</p></div>
+    </details>
+    <details class="block" id="beobachtet-push">
+      <summary><h2>Benachrichtigungen</h2></summary>
+      <p>Bei einem günstigen Angebot kommt eine Push-Nachricht aufs Handy. Günstig heißt: unter deinem Wunschpreis oder <span id="rabatt">20</span> % unter dem Cardmarket-Trend. Dafür die App <a href="https://ntfy.sh" rel="noopener">ntfy</a> installieren, „+“ tippen und den Kanal <code>pokemon-preise-k7m2xq9d</code> abonnieren.</p>
+      <p>Die Karten und Wunschpreise stehen in <a href="https://github.com/nick084412/pokemon-preise/edit/main/abruf/beobachten.json" rel="noopener">abruf/beobachten.json</a>. Bei jeder Karte auf dieser Seite gibt es einen fertigen Eintrag zum Kopieren.</p>
+    </details>
+  </div>
+
+  <!-- ============ Portfolio ============ -->
+  <div class="seite" data-seite="portfolio" hidden>
+    <div class="pf-leiste">
+      <label>Portfolio
+        <select id="pf-wahl"></select>
+      </label>
+      <button class="leise-knopf" id="pf-umbenennen" type="button">Umbenennen</button>
+      <button class="leise-knopf" id="pf-loeschen" type="button">Löschen</button>
+    </div>
+
+    <details class="block" id="portfolio-uebersicht" open>
+      <summary><h2>Übersicht &amp; Wertentwicklung</h2></summary>
+      <div class="vergleich" id="pf-kacheln"></div>
+      <div class="diagramm" id="pf-diagramm"></div>
+      <div class="legende">
+        <span><i style="background:var(--akzent)"></i>Wert (Cardmarket-Trend)</span>
+        <span><i style="background:var(--subtle)"></i>Kaufpreis gesamt</span>
+      </div>
+      <p class="klein" id="pf-hinweis"></p>
+    </details>
+
+    <details class="block" id="portfolio-karten" open>
+      <summary><h2>Meine Karten</h2></summary>
+      <div id="pf-karten"></div>
+    </details>
+
+    <details class="block" id="portfolio-sichern">
+      <summary><h2>Sichern &amp; übertragen</h2></summary>
+      <p>Dein Portfolio ist nur in diesem Browser auf diesem Gerät gespeichert. Niemand sonst kann es sehen. Sichere es ab und zu, oder übertrage es mit dem Link auf ein anderes Gerät.</p>
+      <div class="links">
+        <button class="knopf" id="pf-link" type="button">Übertragungslink kopieren</button>
+        <button class="leise-knopf" id="pf-export" type="button">Als Datei sichern</button>
+        <label class="leise-knopf">Datei laden <input id="pf-import" type="file" accept=".json,application/json" hidden></label>
+      </div>
+      <p class="klein" id="pf-sichern-info"></p>
+    </details>
+  </div>
+
+  <p class="klein fuss">Daten: Cardmarket- und TCGplayer-Preise über die freie <a href="https://tcgdex.dev" rel="noopener">TCGdex-API</a> (täglich aktualisiert, die Ø-Verkaufspreise stammen aus echten Cardmarket-Verkäufen). eBay-Angebote kommen über die eBay-Browse-API. Der Ausblick ist eine statistische Fortschreibung des bisherigen Verlaufs, keine Anlageberatung.</p>
 </main>
 
 <dialog id="detail" aria-labelledby="d-name">
