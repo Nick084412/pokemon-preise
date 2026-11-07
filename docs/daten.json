@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-07T18:47:04+00:00",
+ "stand": "2026-11-07T23:38:03+00:00",
  "ebay_aktiv": false,
  "rabatt_prozent": 20.0,
  "karten": [
@@ -14,16 +14,16 @@
    "bild": "https://assets.tcgdex.net/de/sv/sv03.5/199/high.webp",
    "release": "2023-09-22",
    "cardmarket": {
-    "trend": 319.95,
-    "ab": 199.99,
+    "trend": 311.86,
+    "ab": 150.0,
     "durchschnitt": 336.32,
     "avg1": 305.61,
     "avg7": 356.2,
     "avg30": 334.11,
-    "stand": "2026-11-06T22:54:32.966Z",
+    "stand": "2026-11-07T22:54:33.188Z",
     "idProduct": 733794
    },
-   "tcgplayer_usd": 296.64,
+   "tcgplayer_usd": 295.26,
    "wunschpreis": 260,
    "deals": []
   },
@@ -44,7 +44,7 @@
     "avg1": 750.0,
     "avg7": 969.48,
     "avg30": 1060.17,
-    "stand": "2026-11-06T22:54:32.966Z",
+    "stand": "2026-11-06T22:54:32.977Z",
     "idProduct": 805555
    },
    "tcgplayer_usd": 1178.25,
@@ -63,12 +63,12 @@
    "release": "2021-08-27",
    "cardmarket": {
     "trend": 2082.0,
-    "ab": 240.0,
+    "ab": 250.0,
     "durchschnitt": 1944.0,
     "avg1": 500.0,
     "avg7": 1834.3,
     "avg30": 1730.43,
-    "stand": "2026-11-06T22:54:32.966Z",
+    "stand": "2026-11-07T22:54:33.174Z",
     "idProduct": 574273
    },
    "tcgplayer_usd": 2324.94,
@@ -86,16 +86,16 @@
    "bild": "https://assets.tcgdex.net/de/sv/sv03.5/006/high.webp",
    "release": "2023-09-22",
    "cardmarket": {
-    "trend": 8.57,
+    "trend": 8.74,
     "ab": 4.0,
     "durchschnitt": 7.76,
     "avg1": 8.55,
     "avg7": 8.5,
     "avg30": 7.78,
-    "stand": "2026-11-06T22:54:32.984Z",
+    "stand": "2026-11-07T22:54:33.157Z",
     "idProduct": 733601
    },
-   "tcgplayer_usd": 9.07,
+   "tcgplayer_usd": 8.59,
    "wunschpreis": 5,
    "deals": []
   }
