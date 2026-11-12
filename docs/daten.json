@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-11T17:52:56+00:00",
+ "stand": "2026-11-12T00:40:35+00:00",
  "ebay_aktiv": false,
  "rabatt_prozent": 20.0,
  "karten": [
@@ -14,16 +14,16 @@
    "bild": "https://assets.tcgdex.net/de/sv/sv03.5/199/high.webp",
    "release": "2023-09-22",
    "cardmarket": {
-    "trend": 317.02,
+    "trend": 313.04,
     "ab": 180.0,
     "durchschnitt": 336.32,
-    "avg1": 317.5,
-    "avg7": 332.87,
-    "avg30": 330.52,
-    "stand": "2026-11-10T23:49:36.539Z",
+    "avg1": 325.99,
+    "avg7": 333.58,
+    "avg30": 331.81,
+    "stand": "2026-11-11T23:49:36.420Z",
     "idProduct": 733794
    },
-   "tcgplayer_usd": 293.04,
+   "tcgplayer_usd": 294.0,
    "wunschpreis": 260,
    "deals": []
   },
@@ -39,12 +39,12 @@
    "release": "2025-01-17",
    "cardmarket": {
     "trend": 907.87,
-    "ab": 500.0,
+    "ab": 699.0,
     "durchschnitt": 923.4,
     "avg1": 990.0,
     "avg7": 841.06,
     "avg30": 992.72,
-    "stand": "2026-11-10T23:49:36.539Z",
+    "stand": "2026-11-11T23:49:36.420Z",
     "idProduct": 805555
    },
    "tcgplayer_usd": 1186.84,
@@ -62,13 +62,13 @@
    "bild": "https://assets.tcgdex.net/de/swsh/swsh7/215/high.webp",
    "release": "2021-08-27",
    "cardmarket": {
-    "trend": 1852.67,
+    "trend": 1865.71,
     "ab": 250.0,
     "durchschnitt": 1944.0,
-    "avg1": 240.0,
-    "avg7": 2148.78,
-    "avg30": 1793.63,
-    "stand": "2026-11-10T23:49:36.537Z",
+    "avg1": 1750.0,
+    "avg7": 1921.0,
+    "avg30": 1789.09,
+    "stand": "2026-11-11T23:49:36.420Z",
     "idProduct": 574273
    },
    "tcgplayer_usd": 2324.94,
@@ -86,16 +86,16 @@
    "bild": "https://assets.tcgdex.net/de/sv/sv03.5/006/high.webp",
    "release": "2023-09-22",
    "cardmarket": {
-    "trend": 8.35,
+    "trend": 8.13,
     "ab": 4.0,
     "durchschnitt": 7.76,
-    "avg1": 6.35,
-    "avg7": 8.11,
-    "avg30": 7.85,
-    "stand": "2026-11-10T23:49:36.537Z",
+    "avg1": 6.89,
+    "avg7": 7.85,
+    "avg30": 7.83,
+    "stand": "2026-11-11T23:49:36.420Z",
     "idProduct": 733601
    },
-   "tcgplayer_usd": 8.3,
+   "tcgplayer_usd": 8.16,
    "wunschpreis": 5,
    "deals": []
   }
