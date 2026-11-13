@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-13T17:43:57+00:00",
+ "stand": "2026-11-13T23:31:26+00:00",
  "ebay_aktiv": false,
  "rabatt_prozent": 20.0,
  "karten": [
@@ -14,16 +14,16 @@
    "bild": "https://assets.tcgdex.net/de/sv/sv03.5/199/high.webp",
    "release": "2023-09-22",
    "cardmarket": {
-    "trend": 345.17,
+    "trend": 343.78,
     "ab": 180.0,
     "durchschnitt": 336.32,
-    "avg1": 356.42,
-    "avg7": 346.93,
-    "avg30": 326.88,
-    "stand": "2026-11-12T22:14:48.599Z",
+    "avg1": 308.7,
+    "avg7": 321.77,
+    "avg30": 325.94,
+    "stand": "2026-11-13T22:16:19.350Z",
     "idProduct": 733794
    },
-   "tcgplayer_usd": 291.94,
+   "tcgplayer_usd": 291.39,
    "wunschpreis": 260,
    "deals": []
   },
@@ -38,16 +38,16 @@
    "bild": "https://assets.tcgdex.net/de/sv/sv08.5/161/high.webp",
    "release": "2025-01-17",
    "cardmarket": {
-    "trend": 907.87,
+    "trend": 1290.1,
     "ab": 699.0,
     "durchschnitt": 923.4,
-    "avg1": 990.0,
-    "avg7": 841.06,
-    "avg30": 992.72,
-    "stand": "2026-11-12T22:14:48.534Z",
+    "avg1": 4100.0,
+    "avg7": 1262.31,
+    "avg30": 1064.7,
+    "stand": "2026-11-13T22:16:19.350Z",
     "idProduct": 805555
    },
-   "tcgplayer_usd": 1173.04,
+   "tcgplayer_usd": 1186.84,
    "wunschpreis": 750,
    "deals": []
   },
@@ -63,12 +63,12 @@
    "release": "2021-08-27",
    "cardmarket": {
     "trend": 1872.01,
-    "ab": 250.0,
+    "ab": 500.0,
     "durchschnitt": 1944.0,
     "avg1": 1775.0,
     "avg7": 1945.63,
     "avg30": 1790.22,
-    "stand": "2026-11-12T22:14:48.599Z",
+    "stand": "2026-11-13T22:16:19.350Z",
     "idProduct": 574273
    },
    "tcgplayer_usd": 2324.94,
@@ -86,16 +86,16 @@
    "bild": "https://assets.tcgdex.net/de/sv/sv03.5/006/high.webp",
    "release": "2023-09-22",
    "cardmarket": {
-    "trend": 7.9,
+    "trend": 7.76,
     "ab": 3.99,
     "durchschnitt": 7.76,
-    "avg1": 6.8,
-    "avg7": 7.64,
-    "avg30": 7.87,
-    "stand": "2026-11-12T22:14:48.599Z",
+    "avg1": 7.79,
+    "avg7": 7.68,
+    "avg30": 7.93,
+    "stand": "2026-11-13T22:16:19.358Z",
     "idProduct": 733601
    },
-   "tcgplayer_usd": 8.66,
+   "tcgplayer_usd": 8.74,
    "wunschpreis": 5,
    "deals": []
   }
