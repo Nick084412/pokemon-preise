@@ -1,6 +1,6 @@
 {
- "stand": "2026-11-14T09:23:18+00:00",
- "karten_gesamt": 8676,
+ "stand": "2026-11-15T09:52:51+00:00",
+ "karten_gesamt": 8682,
  "sets": 54,
  "min_preis_listen": 5.0,
  "begehrt": [
@@ -49,17 +49,6 @@
    "avg30": 880.54
   },
   {
-   "id": "me02-125",
-   "name": "Mega-Glurak X-ex",
-   "set": "Fatale Flammen",
-   "nummer": "125",
-   "bild": "https://assets.tcgdex.net/de/me/me02/125",
-   "trend": 566.04,
-   "avg1": 537.0,
-   "avg7": 628.34,
-   "avg30": 642.39
-  },
-  {
    "id": "me02.5-284",
    "name": "Mega-Gengar-ex",
    "set": "Erhabene Helden",
@@ -93,17 +82,6 @@
    "avg30": 256.66
   },
   {
-   "id": "me02-130",
-   "name": "Mega-Glurak X-ex",
-   "set": "Fatale Flammen",
-   "nummer": "130",
-   "bild": "https://assets.tcgdex.net/de/me/me02/130",
-   "trend": 216.19,
-   "avg1": 240.0,
-   "avg7": 229.82,
-   "avg30": 229.99
-  },
-  {
    "id": "me02.5-281",
    "name": "Team Rockets Mewtu-ex",
    "set": "Erhabene Helden",
@@ -113,22 +91,44 @@
    "avg1": 188.5,
    "avg7": 193.79,
    "avg30": 223.87
+  },
+  {
+   "id": "me02.5-294",
+   "name": "Mega-Glurak Y-ex",
+   "set": "Erhabene Helden",
+   "nummer": "294",
+   "bild": "https://assets.tcgdex.net/de/me/me02.5/294",
+   "trend": 206.94,
+   "avg1": 226.33,
+   "avg7": 262.19,
+   "avg30": 337.51
+  },
+  {
+   "id": "me05-116",
+   "name": "Mega-Darkrai-ex",
+   "set": "Dunkelnacht",
+   "nummer": "116",
+   "bild": "https://assets.tcgdex.net/de/me/me05/116",
+   "trend": 172.53,
+   "avg1": 166.85,
+   "avg7": 171.39,
+   "avg30": 177.82
   }
  ],
  "bewegung": {
   "7": {
    "gewinner": [
     {
-     "id": "sv10.5w-106",
-     "name": "Zwottronin",
-     "set": "Weiße Flammen",
-     "nummer": "106",
-     "bild": "https://assets.tcgdex.net/de/sv/sv10.5w/106",
-     "trend": 14.77,
-     "avg1": 16.0,
-     "avg7": 15.04,
-     "avg30": 15.56,
-     "aenderung": 634.8,
+     "id": "sv10.5b-139",
+     "name": "Klikk",
+     "set": "Schwarze Blitze",
+     "nummer": "139",
+     "bild": "https://assets.tcgdex.net/de/sv/sv10.5b/139",
+     "trend": 20.93,
+     "avg1": 7.24,
+     "avg7": 16.27,
+     "avg30": 8.96,
+     "aenderung": 221.5,
      "quelle": "Verlauf"
     },
     {
@@ -141,20 +141,7 @@
      "avg1": 1.89,
      "avg7": 29.01,
      "avg30": 8.86,
-     "aenderung": 275.0,
-     "quelle": "Verlauf"
-    },
-    {
-     "id": "sv10.5b-139",
-     "name": "Klikk",
-     "set": "Schwarze Blitze",
-     "nummer": "139",
-     "bild": "https://assets.tcgdex.net/de/sv/sv10.5b/139",
-     "trend": 20.93,
-     "avg1": 7.24,
-     "avg7": 16.27,
-     "avg30": 8.96,
-     "aenderung": 232.8,
+     "aenderung": 178.7,
      "quelle": "Verlauf"
     },
     {
@@ -167,7 +154,20 @@
      "avg1": 35.26,
      "avg7": 10.02,
      "avg30": 5.84,
-     "aenderung": 146.5,
+     "aenderung": 152.6,
+     "quelle": "Verlauf"
+    },
+    {
+     "id": "sv02-211",
+     "name": "Raichu",
+     "set": "Entwicklungen in Paldea",
+     "nummer": "211",
+     "bild": "https://assets.tcgdex.net/de/sv/sv02/211",
+     "trend": 37.75,
+     "avg1": 44.45,
+     "avg7": 39.76,
+     "avg30": 52.69,
+     "aenderung": 142.5,
      "quelle": "Verlauf"
     },
     {
@@ -184,19 +184,6 @@
      "quelle": "Verlauf"
     },
     {
-     "id": "sv01-215",
-     "name": "Riolu",
-     "set": "Karmesin & Purpur",
-     "nummer": "215",
-     "bild": "https://assets.tcgdex.net/de/sv/sv01/215",
-     "trend": 27.23,
-     "avg1": 13.69,
-     "avg7": 29.97,
-     "avg30": 20.74,
-     "aenderung": 78.0,
-     "quelle": "Verlauf"
-    },
-    {
      "id": "sv06-185",
      "name": "Knapfel",
      "set": "Maskerade im Zwielicht",
@@ -206,20 +193,20 @@
      "avg1": 41.87,
      "avg7": 9.28,
      "avg30": 7.61,
-     "aenderung": 70.0,
+     "aenderung": 77.9,
      "quelle": "Verlauf"
     },
     {
-     "id": "sv02-269",
-     "name": "Enigmara",
-     "set": "Entwicklungen in Paldea",
-     "nummer": "269",
-     "bild": "https://assets.tcgdex.net/de/sv/sv02/269",
-     "trend": 29.12,
-     "avg1": 90.49,
-     "avg7": 31.62,
-     "avg30": 22.64,
-     "aenderung": 57.6,
+     "id": "sv06.5-067",
+     "name": "Seeper",
+     "set": "Nebel der Sagen",
+     "nummer": "067",
+     "bild": "https://assets.tcgdex.net/de/sv/sv06.5/067",
+     "trend": 30.07,
+     "avg1": 27.58,
+     "avg7": 29.66,
+     "avg30": 27.84,
+     "aenderung": 59.6,
      "quelle": "Verlauf"
     },
     {
@@ -247,6 +234,19 @@
      "avg30": 9.34,
      "aenderung": 56.1,
      "quelle": "Verlauf"
+    },
+    {
+     "id": "sv02-269",
+     "name": "Enigmara",
+     "set": "Entwicklungen in Paldea",
+     "nummer": "269",
+     "bild": "https://assets.tcgdex.net/de/sv/sv02/269",
+     "trend": 29.12,
+     "avg1": 90.49,
+     "avg7": 31.62,
+     "avg30": 22.64,
+     "aenderung": 55.5,
+     "quelle": "Verlauf"
     }
    ],
    "verlierer": [
@@ -260,7 +260,7 @@
      "avg1": 13.33,
      "avg7": 11.64,
      "avg30": 17.72,
-     "aenderung": -45.9,
+     "aenderung": -41.4,
      "quelle": "Verlauf"
     },
     {
@@ -273,7 +273,7 @@
      "avg1": 5.5,
      "avg7": 5.0,
      "avg30": 6.98,
-     "aenderung": -39.1,
+     "aenderung": -35.8,
      "quelle": "Verlauf"
     },
     {
@@ -286,7 +286,20 @@
      "avg1": 38.63,
      "avg7": 44.44,
      "avg30": 65.29,
-     "aenderung": -35.7,
+     "aenderung": -32.6,
+     "quelle": "Verlauf"
+    },
+    {
+     "id": "swsh3-66",
+     "name": "Lecryodon",
+     "set": "Flammende Finsternis",
+     "nummer": "66",
+     "bild": "https://assets.tcgdex.net/de/swsh/swsh3/66",
+     "trend": 7.13,
+     "avg1": 2.0,
+     "avg7": 6.21,
+     "avg30": 8.84,
+     "aenderung": -30.2,
      "quelle": "Verlauf"
     },
     {
@@ -312,7 +325,7 @@
      "avg1": 8.73,
      "avg7": 8.79,
      "avg30": 11.56,
-     "aenderung": -29.0,
+     "aenderung": -26.3,
      "quelle": "Verlauf"
     },
     {
@@ -325,8 +338,21 @@
      "avg1": 1473.85,
      "avg7": 2159.67,
      "avg30": 2451.19,
-     "aenderung": -28.6,
-     "quelle": "Verkaufsschnitt"
+     "aenderung": -26.0,
+     "quelle": "Verlauf"
+    },
+    {
+     "id": "cel25-7",
+     "name": "Fliegendes Pikachu VMAX",
+     "set": "Celebrations",
+     "nummer": "7",
+     "bild": "https://assets.tcgdex.net/de/swsh/cel25/7",
+     "trend": 5.03,
+     "avg1": 5.41,
+     "avg7": 5.11,
+     "avg30": 5.6,
+     "aenderung": -25.9,
+     "quelle": "Verlauf"
     },
     {
      "id": "swsh8-114",
@@ -338,46 +364,20 @@
      "avg1": 10.36,
      "avg7": 9.16,
      "avg30": 13.67,
-     "aenderung": -28.4,
+     "aenderung": -25.1,
      "quelle": "Verlauf"
     },
     {
-     "id": "sv05-174",
-     "name": "Stalobor",
-     "set": "Gewalten der Zeit",
-     "nummer": "174",
-     "bild": "https://assets.tcgdex.net/de/sv/sv05/174",
-     "trend": 5.04,
-     "avg1": 5.92,
-     "avg7": 5.98,
-     "avg30": 7.73,
-     "aenderung": -27.1,
-     "quelle": "Verlauf"
-    },
-    {
-     "id": "sv07-154",
-     "name": "Schluppuck",
-     "set": "Stellarkrone",
-     "nummer": "154",
-     "bild": "https://assets.tcgdex.net/de/sv/sv07/154",
-     "trend": 6.51,
-     "avg1": 4.2,
-     "avg7": 5.07,
-     "avg30": 6.8,
-     "aenderung": -26.5,
-     "quelle": "Verlauf"
-    },
-    {
-     "id": "me02.5-290",
-     "name": "Mega-Dragoran-ex",
-     "set": "Erhabene Helden",
-     "nummer": "290",
-     "bild": "https://assets.tcgdex.net/de/me/me02.5/290",
-     "trend": 295.22,
-     "avg1": 399.99,
-     "avg7": 304.68,
-     "avg30": 386.55,
-     "aenderung": -26.2,
+     "id": "swsh9-158",
+     "name": "Raichu V",
+     "set": "Strahlende Sterne",
+     "nummer": "158",
+     "bild": "https://assets.tcgdex.net/de/swsh/swsh9/158",
+     "trend": 5.94,
+     "avg1": 3.99,
+     "avg7": 5.57,
+     "avg30": 7.02,
+     "aenderung": -25.0,
      "quelle": "Verlauf"
     }
    ]
