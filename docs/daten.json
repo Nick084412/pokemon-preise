@@ -1,6 +1,103 @@
 {
- "stand": "2026-11-19T10:17:21+00:00",
+ "stand": "2026-11-19T20:33:50+00:00",
  "ebay_aktiv": false,
  "rabatt_prozent": 20.0,
- "karten": []
+ "karten": [
+  {
+   "id": "sv03.5-199",
+   "name": "Glurak-ex",
+   "set": "151",
+   "setId": "sv03.5",
+   "nummer": "199",
+   "nummerOffiziell": 165,
+   "seltenheit": "Selten, besondere Illustration",
+   "bild": "https://assets.tcgdex.net/de/sv/sv03.5/199/high.webp",
+   "release": "2023-09-22",
+   "cardmarket": {
+    "trend": 323.62,
+    "ab": 199.99,
+    "durchschnitt": 336.32,
+    "avg1": 265.0,
+    "avg7": 322.45,
+    "avg30": 329.53,
+    "stand": "2026-11-18T22:16:18.980Z",
+    "idProduct": 733794
+   },
+   "tcgplayer_usd": 287.93,
+   "wunschpreis": 260,
+   "deals": []
+  },
+  {
+   "id": "sv08.5-161",
+   "name": "Nachtara-ex",
+   "set": "Prismatische Entwicklungen",
+   "setId": "sv08.5",
+   "nummer": "161",
+   "nummerOffiziell": 131,
+   "seltenheit": "Selten, besondere Illustration",
+   "bild": "https://assets.tcgdex.net/de/sv/sv08.5/161/high.webp",
+   "release": "2025-01-17",
+   "cardmarket": {
+    "trend": 1376.56,
+    "ab": 699.0,
+    "durchschnitt": 923.4,
+    "avg1": 785.0,
+    "avg7": 1558.16,
+    "avg30": 1137.26,
+    "stand": "2026-11-18T22:16:18.980Z",
+    "idProduct": 805555
+   },
+   "tcgplayer_usd": 1155.92,
+   "wunschpreis": 750,
+   "deals": []
+  },
+  {
+   "id": "swsh7-215",
+   "name": "Nachtara VMAX",
+   "set": "Drachenwandel",
+   "setId": "swsh7",
+   "nummer": "215",
+   "nummerOffiziell": 203,
+   "seltenheit": "Versteckt Selten",
+   "bild": "https://assets.tcgdex.net/de/swsh/swsh7/215/high.webp",
+   "release": "2021-08-27",
+   "cardmarket": {
+    "trend": 1902.14,
+    "ab": 250.0,
+    "durchschnitt": 1944.0,
+    "avg1": 2100.0,
+    "avg7": 1552.14,
+    "avg30": 1810.68,
+    "stand": "2026-11-18T22:16:18.980Z",
+    "idProduct": 574273
+   },
+   "tcgplayer_usd": 2195.1,
+   "wunschpreis": 1500,
+   "deals": []
+  },
+  {
+   "id": "sv03.5-006",
+   "name": "Glurak-ex",
+   "set": "151",
+   "setId": "sv03.5",
+   "nummer": "006",
+   "nummerOffiziell": 165,
+   "seltenheit": "Doppelselten",
+   "bild": "https://assets.tcgdex.net/de/sv/sv03.5/006/high.webp",
+   "release": "2023-09-22",
+   "cardmarket": {
+    "trend": 7.87,
+    "ab": 3.98,
+    "durchschnitt": 7.76,
+    "avg1": 10.37,
+    "avg7": 7.77,
+    "avg30": 8.12,
+    "stand": "2026-11-18T22:16:18.978Z",
+    "idProduct": 733601
+   },
+   "tcgplayer_usd": 8.0,
+   "wunschpreis": 5,
+   "deals": []
+  }
+ ]
 }
