@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-18T10:44:58+00:00",
+ "stand": "2026-11-19T10:48:54+00:00",
  "karten_gesamt": 8682,
  "sets": 54,
  "min_preis_listen": 5.0,
@@ -128,7 +128,7 @@
      "avg1": 40.0,
      "avg7": 41.38,
      "avg30": 51.17,
-     "aenderung": 503.5,
+     "aenderung": 191800.0,
      "quelle": "Verlauf"
     },
     {
@@ -141,7 +141,7 @@
      "avg1": 160.0,
      "avg7": 24.31,
      "avg30": 10.45,
-     "aenderung": 279.4,
+     "aenderung": 282.5,
      "quelle": "Verlauf"
     },
     {
@@ -154,7 +154,7 @@
      "avg1": 3.81,
      "avg7": 16.18,
      "avg30": 8.18,
-     "aenderung": 168.8,
+     "aenderung": 188.2,
      "quelle": "Verlauf"
     },
     {
@@ -167,7 +167,7 @@
      "avg1": 1.5,
      "avg7": 26.06,
      "avg30": 9.04,
-     "aenderung": 145.1,
+     "aenderung": 174.4,
      "quelle": "Verlauf"
     },
     {
@@ -180,7 +180,33 @@
      "avg1": 15.9,
      "avg7": 27.04,
      "avg30": 21.22,
-     "aenderung": 118.6,
+     "aenderung": 134.0,
+     "quelle": "Verlauf"
+    },
+    {
+     "id": "swsh11-179",
+     "name": "Aerodactyl V",
+     "set": "Verlorener Ursprung",
+     "nummer": "179",
+     "bild": "https://assets.tcgdex.net/de/swsh/swsh11/179",
+     "trend": 5.58,
+     "avg1": 3.13,
+     "avg7": 4.34,
+     "avg30": 3.75,
+     "aenderung": 78.8,
+     "quelle": "Verlauf"
+    },
+    {
+     "id": "swsh5-168",
+     "name": "Fokussierter-Angriff-Wulaosu VMAX",
+     "set": "Kampfstile",
+     "nummer": "168",
+     "bild": "https://assets.tcgdex.net/de/swsh/swsh5/168",
+     "trend": 42.63,
+     "avg1": 25.0,
+     "avg7": 44.17,
+     "avg30": 29.43,
+     "aenderung": 78.7,
      "quelle": "Verlauf"
     },
     {
@@ -197,45 +223,6 @@
      "quelle": "Verlauf"
     },
     {
-     "id": "swsh5-168",
-     "name": "Fokussierter-Angriff-Wulaosu VMAX",
-     "set": "Kampfstile",
-     "nummer": "168",
-     "bild": "https://assets.tcgdex.net/de/swsh/swsh5/168",
-     "trend": 42.63,
-     "avg1": 25.0,
-     "avg7": 44.17,
-     "avg30": 29.43,
-     "aenderung": 76.0,
-     "quelle": "Verlauf"
-    },
-    {
-     "id": "swsh11-179",
-     "name": "Aerodactyl V",
-     "set": "Verlorener Ursprung",
-     "nummer": "179",
-     "bild": "https://assets.tcgdex.net/de/swsh/swsh11/179",
-     "trend": 5.58,
-     "avg1": 3.13,
-     "avg7": 4.34,
-     "avg30": 3.75,
-     "aenderung": 64.6,
-     "quelle": "Verlauf"
-    },
-    {
-     "id": "sv06-185",
-     "name": "Knapfel",
-     "set": "Maskerade im Zwielicht",
-     "nummer": "185",
-     "bild": "https://assets.tcgdex.net/de/sv/sv06/185",
-     "trend": 10.77,
-     "avg1": 7.75,
-     "avg7": 10.14,
-     "avg30": 7.65,
-     "aenderung": 61.2,
-     "quelle": "Verlauf"
-    },
-    {
      "id": "sv04-253",
      "name": "Altaria-ex",
      "set": "Paradoxrift",
@@ -245,7 +232,20 @@
      "avg1": 45.94,
      "avg7": 54.37,
      "avg30": 52.82,
-     "aenderung": 60.7,
+     "aenderung": 69.7,
+     "quelle": "Verlauf"
+    },
+    {
+     "id": "sv05-177",
+     "name": "Nebulak",
+     "set": "Gewalten der Zeit",
+     "nummer": "177",
+     "bild": "https://assets.tcgdex.net/de/sv/sv05/177",
+     "trend": 130.49,
+     "avg1": 500.0,
+     "avg7": 82.98,
+     "avg30": 85.56,
+     "aenderung": 67.0,
      "quelle": "Verlauf"
     }
    ],
@@ -260,7 +260,7 @@
      "avg1": 13.0,
      "avg7": 11.55,
      "avg30": 17.49,
-     "aenderung": -60.6,
+     "aenderung": -47.5,
      "quelle": "Verlauf"
     },
     {
@@ -273,20 +273,7 @@
      "avg1": 35.67,
      "avg7": 43.86,
      "avg30": 67.71,
-     "aenderung": -50.3,
-     "quelle": "Verlauf"
-    },
-    {
-     "id": "sv10.5w-105",
-     "name": "Ottaro",
-     "set": "Weiße Flammen",
-     "nummer": "105",
-     "bild": "https://assets.tcgdex.net/de/sv/sv10.5w/105",
-     "trend": 38.8,
-     "avg1": 36.99,
-     "avg7": 48.46,
-     "avg30": 68.97,
-     "aenderung": -40.5,
+     "aenderung": -45.8,
      "quelle": "Verlauf"
     },
     {
@@ -299,7 +286,7 @@
      "avg1": 9.08,
      "avg7": 8.53,
      "avg30": 13.7,
-     "aenderung": -39.9,
+     "aenderung": -36.9,
      "quelle": "Verlauf"
     },
     {
@@ -325,7 +312,20 @@
      "avg1": 23.5,
      "avg7": 20.1,
      "avg30": 22.9,
-     "aenderung": -35.4,
+     "aenderung": -30.4,
+     "quelle": "Verlauf"
+    },
+    {
+     "id": "sv10.5w-105",
+     "name": "Ottaro",
+     "set": "Weiße Flammen",
+     "nummer": "105",
+     "bild": "https://assets.tcgdex.net/de/sv/sv10.5w/105",
+     "trend": 38.8,
+     "avg1": 36.99,
+     "avg7": 48.46,
+     "avg30": 68.97,
+     "aenderung": -29.2,
      "quelle": "Verlauf"
     },
     {
@@ -338,20 +338,7 @@
      "avg1": 11.95,
      "avg7": 12.42,
      "avg30": 16.93,
-     "aenderung": -33.3,
-     "quelle": "Verlauf"
-    },
-    {
-     "id": "sv03-228",
-     "name": "Glurak-ex",
-     "set": "Obsidian Flammen",
-     "nummer": "228",
-     "bild": "https://assets.tcgdex.net/de/sv/sv03/228",
-     "trend": 16.5,
-     "avg1": 21.5,
-     "avg7": 25.04,
-     "avg30": 28.74,
-     "aenderung": -33.3,
+     "aenderung": -28.5,
      "quelle": "Verlauf"
     },
     {
@@ -364,20 +351,33 @@
      "avg1": 6.48,
      "avg7": 6.52,
      "avg30": 11.95,
-     "aenderung": -31.0,
+     "aenderung": -28.2,
      "quelle": "Verlauf"
     },
     {
-     "id": "sv04-255",
-     "name": "Schirmdame",
-     "set": "Paradoxrift",
-     "nummer": "255",
-     "bild": "https://assets.tcgdex.net/de/sv/sv04/255",
-     "trend": 6.47,
-     "avg1": 10.0,
-     "avg7": 9.78,
-     "avg30": 11.31,
-     "aenderung": -30.7,
+     "id": "sv03-228",
+     "name": "Glurak-ex",
+     "set": "Obsidian Flammen",
+     "nummer": "228",
+     "bild": "https://assets.tcgdex.net/de/sv/sv03/228",
+     "trend": 16.5,
+     "avg1": 21.5,
+     "avg7": 25.04,
+     "avg30": 28.74,
+     "aenderung": -28.2,
+     "quelle": "Verlauf"
+    },
+    {
+     "id": "me02.5-285",
+     "name": "Mega-Irokex-ex",
+     "set": "Erhabene Helden",
+     "nummer": "285",
+     "bild": "https://assets.tcgdex.net/de/me/me02.5/285",
+     "trend": 23.34,
+     "avg1": 19.94,
+     "avg7": 31.0,
+     "avg30": 35.26,
+     "aenderung": -26.9,
      "quelle": "Verlauf"
     }
    ]
