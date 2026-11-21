@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-20T21:48:35+00:00",
+ "stand": "2026-11-21T03:12:16+00:00",
  "ebay_aktiv": false,
  "rabatt_prozent": 20.0,
  "karten": [
@@ -14,16 +14,16 @@
    "bild": "https://assets.tcgdex.net/de/sv/sv03.5/199/high.webp",
    "release": "2023-09-22",
    "cardmarket": {
-    "trend": 314.34,
+    "trend": 313.78,
     "ab": 199.99,
     "durchschnitt": 336.32,
-    "avg1": 293.57,
-    "avg7": 300.85,
-    "avg30": 327.36,
-    "stand": "2026-11-19T22:16:18.908Z",
+    "avg1": 306.33,
+    "avg7": 299.11,
+    "avg30": 326.81,
+    "stand": "2026-11-20T22:16:19.086Z",
     "idProduct": 733794
    },
-   "tcgplayer_usd": 281.34,
+   "tcgplayer_usd": 279.23,
    "wunschpreis": 260,
    "deals": []
   },
@@ -44,10 +44,10 @@
     "avg1": 1630.63,
     "avg7": 1638.68,
     "avg30": 1173.56,
-    "stand": "2026-11-19T22:16:18.908Z",
+    "stand": "2026-11-20T22:16:19.072Z",
     "idProduct": 805555
    },
-   "tcgplayer_usd": 1138.79,
+   "tcgplayer_usd": 1132.83,
    "wunschpreis": 750,
    "deals": []
   },
@@ -62,13 +62,13 @@
    "bild": "https://assets.tcgdex.net/de/swsh/swsh7/215/high.webp",
    "release": "2021-08-27",
    "cardmarket": {
-    "trend": 1816.45,
+    "trend": 1661.09,
     "ab": 250.0,
     "durchschnitt": 1944.0,
-    "avg1": 1090.0,
-    "avg7": 1568.13,
-    "avg30": 1783.33,
-    "stand": "2026-11-19T22:16:18.914Z",
+    "avg1": 1013.25,
+    "avg7": 1532.28,
+    "avg30": 1802.29,
+    "stand": "2026-11-20T22:16:19.091Z",
     "idProduct": 574273
    },
    "tcgplayer_usd": 2195.1,
@@ -86,16 +86,16 @@
    "bild": "https://assets.tcgdex.net/de/sv/sv03.5/006/high.webp",
    "release": "2023-09-22",
    "cardmarket": {
-    "trend": 7.86,
+    "trend": 7.97,
     "ab": 3.5,
     "durchschnitt": 7.76,
-    "avg1": 7.25,
-    "avg7": 8.07,
-    "avg30": 8.09,
-    "stand": "2026-11-19T22:16:18.914Z",
+    "avg1": 8.4,
+    "avg7": 8.18,
+    "avg30": 8.1,
+    "stand": "2026-11-20T22:16:19.086Z",
     "idProduct": 733601
    },
-   "tcgplayer_usd": 8.21,
+   "tcgplayer_usd": 7.43,
    "wunschpreis": 5,
    "deals": []
   }
