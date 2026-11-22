@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-21T20:30:47+00:00",
+ "stand": "2026-11-22T02:12:40+00:00",
  "ebay_aktiv": false,
  "rabatt_prozent": 20.0,
  "karten": [
@@ -20,10 +20,10 @@
     "avg1": 306.33,
     "avg7": 299.11,
     "avg30": 326.81,
-    "stand": "2026-11-20T22:16:19.070Z",
+    "stand": "2026-11-21T22:16:19.018Z",
     "idProduct": 733794
    },
-   "tcgplayer_usd": 279.23,
+   "tcgplayer_usd": 279.37,
    "wunschpreis": 260,
    "deals": []
   },
@@ -44,10 +44,10 @@
     "avg1": 1630.63,
     "avg7": 1638.68,
     "avg30": 1173.56,
-    "stand": "2026-11-20T22:16:19.070Z",
+    "stand": "2026-11-21T22:16:19.015Z",
     "idProduct": 805555
    },
-   "tcgplayer_usd": 1132.83,
+   "tcgplayer_usd": 1130.37,
    "wunschpreis": 750,
    "deals": []
   },
@@ -68,7 +68,7 @@
     "avg1": 1013.25,
     "avg7": 1532.28,
     "avg30": 1802.29,
-    "stand": "2026-11-20T22:16:19.070Z",
+    "stand": "2026-11-21T22:16:19.023Z",
     "idProduct": 574273
    },
    "tcgplayer_usd": 2195.1,
@@ -92,10 +92,10 @@
     "avg1": 8.4,
     "avg7": 8.18,
     "avg30": 8.1,
-    "stand": "2026-11-20T22:16:19.070Z",
+    "stand": "2026-11-21T22:16:19.023Z",
     "idProduct": 733601
    },
-   "tcgplayer_usd": 7.43,
+   "tcgplayer_usd": 7.24,
    "wunschpreis": 5,
    "deals": []
   }
